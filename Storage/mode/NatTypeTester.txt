@@ -1,2 +1,2 @@
-# NatTypeTester
+# NAT 类型测试
 NatTypeTester.exe

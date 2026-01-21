@@ -1,3 +1,3 @@
-# Google Drive Backup and Sync, 0
+# Google 云端硬盘同步, 0
 googledrivesync.exe
 nativeproxy.exe

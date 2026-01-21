@@ -1,2 +1,2 @@
-# Minecraft Bedrock (Win10 UWP)
+# 我的世界 (基岩版/Win10)
 Minecraft.Windows.exe

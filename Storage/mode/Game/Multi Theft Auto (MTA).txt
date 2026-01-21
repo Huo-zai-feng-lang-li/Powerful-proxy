@@ -1,4 +1,4 @@
-# Multi Theft Auto (MTA), 0
+# 侠盗猎车手：圣安地列斯多人模式 (MTA), 0
 gta_sa.exe
 CEFLauncher.exe
 wow64_helper.exe

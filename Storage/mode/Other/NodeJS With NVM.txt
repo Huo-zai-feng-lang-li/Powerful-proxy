@@ -1,4 +1,4 @@
-# NodeJS With NVM, 0
+# Node.js (含 NVM), 0
 nvm.exe
 unins000.exe
 node64.exe

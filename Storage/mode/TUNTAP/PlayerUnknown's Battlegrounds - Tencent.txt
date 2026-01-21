@@ -1,4 +1,4 @@
-# PlayerUnknown's Battlegrounds - Tencent, 1
+# 绝地求生 (PUBG) (腾讯模式), 1
 1.234.26.66/32
 2.0.0.1/32
 2.16.2.0/24

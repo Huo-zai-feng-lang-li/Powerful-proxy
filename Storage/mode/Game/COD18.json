@@ -1,12 +1,10 @@
 {
   "type": "ProcessMode",
   "remark": {
-    "zh-CN": "COD18"
+    "zh-CN": "使命召唤 18 (COD18)",
+    "en": "COD18"
   },
-  "handle": [
-    "\\\\Battlestate Games\\\\",
-    "\\\\Battle.net\\\\"
-  ],
+  "handle": ["\\\\Battlestate Games\\\\", "\\\\Battle.net\\\\"],
   "bypass": [],
   "filterIntranet": true,
   "filterLoopback": false,

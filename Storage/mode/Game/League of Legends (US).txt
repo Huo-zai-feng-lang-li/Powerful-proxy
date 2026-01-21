@@ -1,4 +1,4 @@
-# League of Legends (US), 0
+# 英雄联盟 (美服), 0
 BsSndRpt.exe
 jpatch.exe
 LeagueClient.exe

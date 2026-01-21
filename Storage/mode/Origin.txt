@@ -1,4 +1,4 @@
-# Origin
+# Origin (游戏平台)
 EAProxyInstaller.exe
 GetGameToken32.exe
 GetGameToken64.exe

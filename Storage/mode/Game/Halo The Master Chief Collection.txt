@@ -1,4 +1,4 @@
-# Halo The Master Chief Collection
+# 光环：士官长合集
 mcclauncher.exe
 MCC-Win64-Shipping.exe
 easyanticheat_setup.exe

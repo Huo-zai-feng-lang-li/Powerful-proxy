@@ -1,2 +1,2 @@
-# VMware, 0, 0
+# VMware (虚拟机), 0, 0
 vmnat.exe

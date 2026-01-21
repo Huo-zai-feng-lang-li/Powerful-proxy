@@ -1,2 +1,2 @@
-# qBittorrent, 0
+# qBittorrent (下载工具), 0
 qbittorrent.exe

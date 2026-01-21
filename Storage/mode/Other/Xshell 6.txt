@@ -1,4 +1,4 @@
-# Xshell 6, 0
+# Xshell 6 (终端模拟器), 0
 CrashSender.exe
 installanchorservice.exe
 LiveUpdate.exe

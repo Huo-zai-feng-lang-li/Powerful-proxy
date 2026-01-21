@@ -1,4 +1,4 @@
-# Adobe Creative Cloud, 0
+# Adobe Creative Cloud (全家桶管理), 0
 Creative_Cloud_Set-Up.exe
 Adobe CEF Helper.exe
 Creative Cloud.exe

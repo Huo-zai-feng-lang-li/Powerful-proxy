@@ -1,4 +1,4 @@
-# Nexon
+# Nexon (游戏平台)
 NexonPlug.exe
 NMService.exe
 NGM.exe

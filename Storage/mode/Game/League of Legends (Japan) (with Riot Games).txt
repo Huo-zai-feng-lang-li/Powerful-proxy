@@ -1,4 +1,4 @@
-# League of Legends (Japan) (with Riot Games), 0
+# 英雄联盟 (日服) (Riot 客户端), 0
 jpatch.exe
 RiotClientCrashHandler.exe
 RiotClientServices.exe

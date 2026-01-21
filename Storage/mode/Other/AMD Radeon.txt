@@ -1,4 +1,4 @@
-# AMD Radeon, 0
+# AMD Radeon (显卡驱动程序), 0
 AUEPLauncher.exe
 AUEPMaster.exe
 AUEPUF.exe

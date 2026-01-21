@@ -1,11 +1,10 @@
 {
   "type": "ProcessMode",
   "remark": {
-    "zh-CN": "Age of Empires IV"
+    "zh-CN": "帝国时代 IV",
+    "en": "Age of Empires IV"
   },
-  "handle": [
-    "RelicCardinal_ws.exe"
-  ],
+  "handle": ["RelicCardinal_ws.exe"],
   "bypass": [],
   "filterIntranet": true,
   "filterLoopback": true,

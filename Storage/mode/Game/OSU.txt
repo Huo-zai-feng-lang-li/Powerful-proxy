@@ -1,2 +1,2 @@
-# osu!
+# OSU! (音游)
 osu!.exe

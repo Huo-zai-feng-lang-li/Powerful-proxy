@@ -1,4 +1,4 @@
-# Git
+# Git (版本控制工具)
 curl.exe
 git-add.exe
 git-am.exe

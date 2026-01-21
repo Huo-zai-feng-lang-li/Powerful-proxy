@@ -1,4 +1,4 @@
-# Counter-Strike Global Offensive -UU-, 1
+# CS:GO (UU 模式), 1
 1.165.81.0/24
 1.165.84.0/24
 1.165.85.0/24

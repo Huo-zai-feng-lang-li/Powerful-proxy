@@ -1,4 +1,4 @@
-# RAGE Multiplayer, 0
+# RAGE 多人模式 (GTA5), 0
 cef_process.exe
 ragemp_game_ui.exe
 ragemp_ui.exe

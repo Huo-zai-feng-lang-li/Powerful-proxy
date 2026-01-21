@@ -1,4 +1,4 @@
-# Ubisoft Connect
+# Ubisoft Connect (游戏平台)
 UbisoftConnect.exe
 UbisoftGameLauncher.exe
 UbisoftGameLauncher64.exe

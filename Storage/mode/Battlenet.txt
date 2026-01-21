@@ -1,4 +1,4 @@
-# Battle
+# 战网 (游戏平台)
 Battle.net Launcher.exe
 BlizzardError.exe
 Loader64.exe

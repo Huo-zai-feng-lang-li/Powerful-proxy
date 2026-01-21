@@ -1,4 +1,4 @@
-# JetBrains, 0
+# JetBrains Toolbox (IDE 管理器), 0
 7z.exe
 jetbrains-toolbox-helper.exe
 jetbrains-toolbox.exe

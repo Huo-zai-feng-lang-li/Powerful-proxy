@@ -1,4 +1,4 @@
-# Xftp 6, 0
+# Xftp 6 (文件传输), 0
 CrashSender.exe
 installanchorservice.exe
 LiveUpdate.exe

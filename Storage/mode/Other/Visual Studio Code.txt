@@ -1,4 +1,4 @@
-# Visual Studio Code, 0
+# VS Code (代码编辑器), 0
 Code.exe
 inno_updater.exe
 CodeHelper.exe

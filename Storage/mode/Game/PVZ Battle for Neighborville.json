@@ -1,11 +1,10 @@
 {
   "type": "ProcessMode",
   "remark": {
-    "zh-CN": "PVZ Battle for Neighborville"
+    "zh-CN": "植物大战僵尸：和睦小镇",
+    "en": "PVZ Battle for Neighborville"
   },
-  "handle": [
-    "PVZ Battle for Neighborville"
-  ],
+  "handle": ["PVZ Battle for Neighborville"],
   "bypass": [],
   "filterIntranet": true,
   "filterLoopback": false,

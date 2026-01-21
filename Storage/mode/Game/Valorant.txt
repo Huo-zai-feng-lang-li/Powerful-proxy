@@ -1,4 +1,4 @@
-# Valorant, 0
+# 瓦罗兰特 (无畏契约), 0
 RiotClientCrashHandler.exe
 RiotClientServices.exe
 RiotClientUx.exe

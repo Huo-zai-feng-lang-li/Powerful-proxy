@@ -1,4 +1,4 @@
-# EVE Online, 0
+# EVE 星战前夜 (国际服), 0
 eve.exe
 exefile.exe
 LogServer.exe

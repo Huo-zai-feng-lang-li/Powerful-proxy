@@ -1,2 +1,2 @@
-# CyberDuck, 0
+# CyberDuck (FTP 客户端), 0
 Cyberduck.exe

@@ -1,2 +1,2 @@
-# [pcap2socks] Tencent(10.6.0.1) Preset, 6
+# [pcap2socks] 腾讯预设 (10.6.0.1), 6
 --preset tencent

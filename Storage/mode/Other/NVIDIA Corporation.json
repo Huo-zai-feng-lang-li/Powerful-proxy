@@ -1,11 +1,10 @@
 {
   "type": "ProcessMode",
   "remark": {
-    "zh-CN": "NVIDIA Corporation"
+    "zh-CN": "NVIDIA 公司",
+    "en": "NVIDIA Corporation"
   },
-  "handle": [
-    "\\\\NVIDIA Corporation\\\\"
-  ],
+  "handle": ["\\\\NVIDIA Corporation\\\\"],
   "bypass": [],
   "filterIntranet": true,
   "filterLoopback": true,

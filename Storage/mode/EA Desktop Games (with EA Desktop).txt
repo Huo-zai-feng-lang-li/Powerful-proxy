@@ -1,4 +1,4 @@
-# EA Desktop Games (with EA Desktop), 0
+# EA Desktop 游戏 (含平台), 0
 \\EA Games\\
 EABackgroundService.exe
 EAConnect_microsoft.exe

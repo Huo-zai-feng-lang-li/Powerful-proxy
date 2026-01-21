@@ -1,4 +1,4 @@
-# World Of Warships, 0, 0
+# 战舰世界, 0, 0
 wgc_api.exe
 wgc.exe
 WorldOfWarships.exe

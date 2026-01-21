@@ -1,4 +1,4 @@
-# Geforce Experience
+# GeForce Experience (显卡驱动程序)
 courgette.exe
 NVIDIA GeForce Experience.exe
 NVIDIA Notification.exe

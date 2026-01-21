@@ -1,4 +1,4 @@
-# VRChat, 0
+# VRChat (社交游戏), 0
 install.exe
 VRChat.exe
 UnityCrashHandler64.exe

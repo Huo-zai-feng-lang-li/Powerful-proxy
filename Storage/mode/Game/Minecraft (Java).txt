@@ -1,4 +1,4 @@
-# Minecraft (Java)
+# 我的世界 (Java 版)
 javaw.exe
 java.exe
 MinecraftLauncher.exe

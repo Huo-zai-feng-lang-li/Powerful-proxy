@@ -1,4 +1,4 @@
-# League of Legends (Taiwan) (with Garena)
+# 英雄联盟 (台服) (Garena 客户端)
 wow_helper.exe
 CrashReporter.exe
 GarenaTV.exe

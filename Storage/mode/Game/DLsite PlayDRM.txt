@@ -1,2 +1,2 @@
-# DLsite PlayDRM, 0
+# DLsite 播放器 DRM, 0
 startup.exe

@@ -1,4 +1,4 @@
-# PlayerUnknown's Battlegrounds Lite
+# 绝地求生 (轻量版/PUBG Lite)
 CefSharp.BrowserSubprocess.exe
 UE4PrereqSetup_x64.exe
 PUBGLite.exe

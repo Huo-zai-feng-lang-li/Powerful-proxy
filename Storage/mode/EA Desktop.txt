@@ -1,4 +1,4 @@
-# EA Desktop, 0
+# EA Desktop (游戏平台), 0
 EABackgroundService.exe
 EAConnect_microsoft.exe
 EACrashReporter.exe
