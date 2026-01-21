@@ -46,22 +46,27 @@ $RetryCount = 0
 $GeoIPUrl = 'https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb'
 $GeoIPPath = 'bin\GeoLite2-Country.mmdb'
 
-while ($RetryCount -lt $MaxRetries) {
-    try {
-        Write-Host "Downloading GeoIP database (Attempt $($RetryCount + 1))..."
-        Invoke-WebRequest -Uri $GeoIPUrl -OutFile $GeoIPPath -ErrorAction Stop
-        Write-Host "GeoIP download successful."
-        break
-    }
-    catch {
-        Write-Host "Download failed: $_"
-        $RetryCount++
-        if ($RetryCount -eq $MaxRetries) {
-            Write-Host "Error: Failed to download GeoIP database after $MaxRetries attempts." -ForegroundColor Red
-            exit 1
+# Check if GeoIP database already exists
+if (-not (Test-Path $GeoIPPath)) {
+    while ($RetryCount -lt $MaxRetries) {
+        try {
+            Write-Host "Downloading GeoIP database (Attempt $($RetryCount + 1))..."
+            Invoke-WebRequest -Uri $GeoIPUrl -OutFile $GeoIPPath -ErrorAction Stop
+            Write-Host "GeoIP download successful."
+            break
         }
-        Start-Sleep -Seconds 5
+        catch {
+            Write-Host "Download failed: $_"
+            $RetryCount++
+            if ($RetryCount -eq $MaxRetries) {
+                Write-Host "Error: Failed to download GeoIP database after $MaxRetries attempts." -ForegroundColor Red
+                exit 1
+            }
+            Start-Sleep -Seconds 5
+        }
     }
+} else {
+    Write-Host "GeoIP database already exists. Skipping download."
 }
 #cp -Recurse -Force '..\Storage\GeoLite2-Country.mmdb' 'bin'  | Out-Null
 cp -Recurse -Force '..\Storage\tun2socks.bin' 'bin'  | Out-Null

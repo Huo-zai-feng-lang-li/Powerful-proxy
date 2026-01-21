@@ -91,6 +91,16 @@ jobs:
       - name: Restore dependencies
         run: dotnet restore Netch.sln
 
+      - name: Prepare Release Directory
+        shell: pwsh
+        run: |
+          if (-not (Test-Path 'release/bin')) { New-Item -ItemType Directory -Path 'release/bin' -Force }
+
+      - name: Download GeoIP
+        shell: bash
+        run: |
+          curl -L -o release/bin/GeoLite2-Country.mmdb https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb
+
       - name: Build
         shell: pwsh
         run: |
