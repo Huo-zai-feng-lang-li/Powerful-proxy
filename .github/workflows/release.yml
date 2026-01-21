@@ -88,6 +88,9 @@ jobs:
       - name: Setup MSBuild
         uses: microsoft/setup-msbuild@v2
 
+      - name: Restore dependencies
+        run: dotnet restore Netch.sln
+
       - name: Build
         shell: pwsh
         run: |

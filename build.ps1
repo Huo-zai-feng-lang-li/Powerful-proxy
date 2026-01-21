@@ -36,7 +36,33 @@ cp -Recurse -Force '..\Storage\mode' '.'  | Out-Null
 cp -Recurse -Force '..\Storage\stun.txt' 'bin'  | Out-Null
 cp -Recurse -Force '..\Storage\nfdriver.sys' 'bin'  | Out-Null
 cp -Recurse -Force '..\Storage\aiodns.conf' 'bin'  | Out-Null
+# Ensure bin directory exists
+if (-not (Test-Path 'bin')) { New-Item -ItemType Directory -Name 'bin' | Out-Null }
+
 Invoke-WebRequest -Uri 'https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb' -OutFile 'bin\GeoLite2-Country.mmdb'
+# Retry logic for GeoIP download
+$MaxRetries = 3
+$RetryCount = 0
+$GeoIPUrl = 'https://raw.githubusercontent.com/Loyalsoldier/geoip/release/Country.mmdb'
+$GeoIPPath = 'bin\GeoLite2-Country.mmdb'
+
+while ($RetryCount -lt $MaxRetries) {
+    try {
+        Write-Host "Downloading GeoIP database (Attempt $($RetryCount + 1))..."
+        Invoke-WebRequest -Uri $GeoIPUrl -OutFile $GeoIPPath -ErrorAction Stop
+        Write-Host "GeoIP download successful."
+        break
+    }
+    catch {
+        Write-Host "Download failed: $_"
+        $RetryCount++
+        if ($RetryCount -eq $MaxRetries) {
+            Write-Host "Error: Failed to download GeoIP database after $MaxRetries attempts." -ForegroundColor Red
+            exit 1
+        }
+        Start-Sleep -Seconds 5
+    }
+}
 #cp -Recurse -Force '..\Storage\GeoLite2-Country.mmdb' 'bin'  | Out-Null
 cp -Recurse -Force '..\Storage\tun2socks.bin' 'bin'  | Out-Null
 cp -Recurse -Force '..\Storage\README.md' 'bin'  | Out-Null
